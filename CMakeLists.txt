@@ -5,7 +5,15 @@ project(Cripto_Manager LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(Cripto_Manager main.cpp)
+add_executable(Cripto_Manager main.cpp
+    System.h
+    System.cpp
+    XOR.h
+    XOR.cpp
+    Ceasar.cpp
+    Ceasar.h
+    Vigenere.h
+    Vigenere.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS Cripto_Manager

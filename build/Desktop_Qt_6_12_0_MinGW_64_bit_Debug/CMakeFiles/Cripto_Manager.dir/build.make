@@ -82,19 +82,83 @@ CMakeFiles/Cripto_Manager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cripto_Manager.dir/main.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\main.cpp" -o CMakeFiles\Cripto_Manager.dir\main.cpp.s
 
+CMakeFiles/Cripto_Manager.dir/System.cpp.obj: CMakeFiles/Cripto_Manager.dir/flags.make
+CMakeFiles/Cripto_Manager.dir/System.cpp.obj: C:/Cosas\ de\ Caso/Progra_3/Lab3/Proyecto_Lab/Cripto_Manager/System.cpp
+CMakeFiles/Cripto_Manager.dir/System.cpp.obj: CMakeFiles/Cripto_Manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cripto_Manager.dir/System.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cripto_Manager.dir/System.cpp.obj -MF CMakeFiles\Cripto_Manager.dir\System.cpp.obj.d -o CMakeFiles\Cripto_Manager.dir\System.cpp.obj -c "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\System.cpp"
+
+CMakeFiles/Cripto_Manager.dir/System.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cripto_Manager.dir/System.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\System.cpp" > CMakeFiles\Cripto_Manager.dir\System.cpp.i
+
+CMakeFiles/Cripto_Manager.dir/System.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cripto_Manager.dir/System.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\System.cpp" -o CMakeFiles\Cripto_Manager.dir\System.cpp.s
+
+CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj: CMakeFiles/Cripto_Manager.dir/flags.make
+CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj: C:/Cosas\ de\ Caso/Progra_3/Lab3/Proyecto_Lab/Cripto_Manager/XOR.cpp
+CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj: CMakeFiles/Cripto_Manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj -MF CMakeFiles\Cripto_Manager.dir\XOR.cpp.obj.d -o CMakeFiles\Cripto_Manager.dir\XOR.cpp.obj -c "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\XOR.cpp"
+
+CMakeFiles/Cripto_Manager.dir/XOR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cripto_Manager.dir/XOR.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\XOR.cpp" > CMakeFiles\Cripto_Manager.dir\XOR.cpp.i
+
+CMakeFiles/Cripto_Manager.dir/XOR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cripto_Manager.dir/XOR.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\XOR.cpp" -o CMakeFiles\Cripto_Manager.dir\XOR.cpp.s
+
+CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj: CMakeFiles/Cripto_Manager.dir/flags.make
+CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj: C:/Cosas\ de\ Caso/Progra_3/Lab3/Proyecto_Lab/Cripto_Manager/Ceasar.cpp
+CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj: CMakeFiles/Cripto_Manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj -MF CMakeFiles\Cripto_Manager.dir\Ceasar.cpp.obj.d -o CMakeFiles\Cripto_Manager.dir\Ceasar.cpp.obj -c "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\Ceasar.cpp"
+
+CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\Ceasar.cpp" > CMakeFiles\Cripto_Manager.dir\Ceasar.cpp.i
+
+CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\Ceasar.cpp" -o CMakeFiles\Cripto_Manager.dir\Ceasar.cpp.s
+
+CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj: CMakeFiles/Cripto_Manager.dir/flags.make
+CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj: C:/Cosas\ de\ Caso/Progra_3/Lab3/Proyecto_Lab/Cripto_Manager/Vigenere.cpp
+CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj: CMakeFiles/Cripto_Manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj -MF CMakeFiles\Cripto_Manager.dir\Vigenere.cpp.obj.d -o CMakeFiles\Cripto_Manager.dir\Vigenere.cpp.obj -c "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\Vigenere.cpp"
+
+CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\Vigenere.cpp" > CMakeFiles\Cripto_Manager.dir\Vigenere.cpp.i
+
+CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\Vigenere.cpp" -o CMakeFiles\Cripto_Manager.dir\Vigenere.cpp.s
+
 # Object files for target Cripto_Manager
 Cripto_Manager_OBJECTS = \
-"CMakeFiles/Cripto_Manager.dir/main.cpp.obj"
+"CMakeFiles/Cripto_Manager.dir/main.cpp.obj" \
+"CMakeFiles/Cripto_Manager.dir/System.cpp.obj" \
+"CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj" \
+"CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj" \
+"CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj"
 
 # External object files for target Cripto_Manager
 Cripto_Manager_EXTERNAL_OBJECTS =
 
 Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/main.cpp.obj
+Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/System.cpp.obj
+Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj
+Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj
+Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj
 Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/build.make
 Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/linkLibs.rsp
 Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/objects1.rsp
 Cripto_Manager.exe: CMakeFiles/Cripto_Manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Cripto_Manager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Cosas de Caso\Progra_3\Lab3\Proyecto_Lab\Cripto_Manager\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Cripto_Manager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Cripto_Manager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

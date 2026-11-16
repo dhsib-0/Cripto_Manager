@@ -173,6 +173,102 @@ Cripto_Manager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/build
 .PHONY : Cripto_Manager/fast
 
+Ceasar.obj: Ceasar.cpp.obj
+.PHONY : Ceasar.obj
+
+# target to build an object file
+Ceasar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.obj
+.PHONY : Ceasar.cpp.obj
+
+Ceasar.i: Ceasar.cpp.i
+.PHONY : Ceasar.i
+
+# target to preprocess a source file
+Ceasar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.i
+.PHONY : Ceasar.cpp.i
+
+Ceasar.s: Ceasar.cpp.s
+.PHONY : Ceasar.s
+
+# target to generate assembly for a file
+Ceasar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/Ceasar.cpp.s
+.PHONY : Ceasar.cpp.s
+
+System.obj: System.cpp.obj
+.PHONY : System.obj
+
+# target to build an object file
+System.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/System.cpp.obj
+.PHONY : System.cpp.obj
+
+System.i: System.cpp.i
+.PHONY : System.i
+
+# target to preprocess a source file
+System.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/System.cpp.i
+.PHONY : System.cpp.i
+
+System.s: System.cpp.s
+.PHONY : System.s
+
+# target to generate assembly for a file
+System.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/System.cpp.s
+.PHONY : System.cpp.s
+
+Vigenere.obj: Vigenere.cpp.obj
+.PHONY : Vigenere.obj
+
+# target to build an object file
+Vigenere.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.obj
+.PHONY : Vigenere.cpp.obj
+
+Vigenere.i: Vigenere.cpp.i
+.PHONY : Vigenere.i
+
+# target to preprocess a source file
+Vigenere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.i
+.PHONY : Vigenere.cpp.i
+
+Vigenere.s: Vigenere.cpp.s
+.PHONY : Vigenere.s
+
+# target to generate assembly for a file
+Vigenere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/Vigenere.cpp.s
+.PHONY : Vigenere.cpp.s
+
+XOR.obj: XOR.cpp.obj
+.PHONY : XOR.obj
+
+# target to build an object file
+XOR.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/XOR.cpp.obj
+.PHONY : XOR.cpp.obj
+
+XOR.i: XOR.cpp.i
+.PHONY : XOR.i
+
+# target to preprocess a source file
+XOR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/XOR.cpp.i
+.PHONY : XOR.cpp.i
+
+XOR.s: XOR.cpp.s
+.PHONY : XOR.s
+
+# target to generate assembly for a file
+XOR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cripto_Manager.dir\build.make CMakeFiles/Cripto_Manager.dir/XOR.cpp.s
+.PHONY : XOR.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -210,6 +306,18 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... Cripto_Manager
+	@echo ... Ceasar.obj
+	@echo ... Ceasar.i
+	@echo ... Ceasar.s
+	@echo ... System.obj
+	@echo ... System.i
+	@echo ... System.s
+	@echo ... Vigenere.obj
+	@echo ... Vigenere.i
+	@echo ... Vigenere.s
+	@echo ... XOR.obj
+	@echo ... XOR.i
+	@echo ... XOR.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
