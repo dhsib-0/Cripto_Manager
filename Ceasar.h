@@ -5,7 +5,7 @@
 class Ceasar{
 public:
     Ceasar();
-    void cifrado(int mov, std::string palabra);
+   std::string cifrado(int mov, std::string palabra,bool ver);
     void decifrado();
     void cifradotxt(int mov);
 };

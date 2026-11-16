@@ -59,8 +59,11 @@ void System::MenuP(){
             cout << "Ingrese cuantos movimientos desea: ";
             cin >> mov;
 
-            c.cifrado(mov, palabra);
+            string res = c.cifrado(mov, palabra,true);
 
+            cout<<string(20,'=')<<"\n";
+            cout <<"\t"<<res<<"\n";
+            cout<<string(20,'=')<<"\n";
 
             break;
         }
@@ -69,6 +72,8 @@ void System::MenuP(){
             cout << "Ingrese cuantos movimientos desea: ";
             cin >> mov;
             c.cifradotxt(mov);
+
+
 
             break;
         }

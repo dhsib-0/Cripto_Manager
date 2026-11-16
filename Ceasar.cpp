@@ -9,7 +9,7 @@ Ceasar::Ceasar(){
 }
 
 
-void Ceasar::cifrado(int mov,string palabra) {
+string Ceasar::cifrado(int mov,string palabra,bool ver) {
     char temp;
 
         string res = "";
@@ -27,10 +27,7 @@ void Ceasar::cifrado(int mov,string palabra) {
         res += temp;
     }
 
-    cout<<string(20,'=')<<"\n";
-    cout <<"\t"<<res<<"\n";
-    cout<<string(20,'=')<<"\n";
-
+    return res;
     system("pause");
 }
 
@@ -48,16 +45,19 @@ void Ceasar::cifradotxt(int mov) {
     getline(cin >> ws, arch);
 
     ifstream palabra(arch);
+    ofstream res("Salida.txt");
 
     if (!palabra.is_open()) {
         cout << "Error al abrir el archivo\n";
         return;
-    }
+    }else{
 
     while (getline(palabra, texto)) {
-        cifrado(mov, texto);
+        res << cifrado(mov, texto,false);
+    }
+    cout<<"Ya se cifro el texto en el archivo Salida.txt\n";
     }
 
-    palabra.close();
+
 }
 
