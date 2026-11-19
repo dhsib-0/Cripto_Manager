@@ -49,7 +49,7 @@ void System::MenuP(){
         }
         //Opciones Ceasar
         switch (op) {
-        case 1:{
+            case 1:{
 
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
@@ -67,7 +67,7 @@ void System::MenuP(){
 
             break;
         }
-        case 2:{
+            case 2:{
 
             cout << "Ingrese cuantos movimientos desea: ";
             cin >> mov;
@@ -77,14 +77,33 @@ void System::MenuP(){
 
             break;
         }
-        case 3:{
-            break;
-        }
-        case 4:{
+            case 3:{
+
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+            cout << "Ingrese la palabra a decifrar: ";
+            getline(cin, palabra);
+
+            cout << "Ingrese cuantos movimientos son para decifrar: ";
+            cin >> mov;
+
+           string res = c.decifrado(mov,palabra,true);
+
+            cout<<string(20,'=')<<"\n";
+            cout <<"\t"<<res<<"\n";
+            cout<<string(20,'=')<<"\n";
+
 
             break;
         }
-        case 5:{
+            case 4:{
+            cout << "Ingrese cuantos movimientos desea: ";
+            cin >> mov;
+            c.decifradotxt(mov);
+
+            break;
+        }
+            case 5:{
             return;
         }
         }
@@ -126,4 +145,7 @@ void printCeasar(){
     cout<<"5. Volver al Menu Principal\n";
     cout<<string(20,'=')<<"\n";
     cout<<"Seleccione: ";
+}
+void printXOR(){
+
 }
